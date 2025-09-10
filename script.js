@@ -88,6 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadGallery() {
         mediaFiles.forEach(file => {
             let element;
+            const itemDiv = document.createElement('div');
+            itemDiv.classList.add('media-item');
+
             if (file.type === 'image') {
                 element = document.createElement('img');
                 element.src = file.src;
@@ -100,11 +103,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (element) {
-                const itemDiv = document.createElement('div');
-                itemDiv.classList.add('media-item');
+                // Guarda el estado de la rotación en el elemento
+                element.dataset.rotation = 0;
+
+                // Botón de rotación
+                const rotateBtn = document.createElement('button');
+                rotateBtn.textContent = '⟳';
+                rotateBtn.classList.add('rotate-btn');
+                rotateBtn.addEventListener('click', () => {
+                    let currentRotation = parseInt(element.dataset.rotation);
+                    let newRotation = currentRotation + 90;
+                    element.style.transform = `rotate(${newRotation}deg)`;
+                    element.dataset.rotation = newRotation;
+                });
+                
                 itemDiv.appendChild(element);
-                galleryContainer.appendChild(itemDiv);
+                itemDiv.appendChild(rotateBtn);
             }
+            galleryContainer.appendChild(itemDiv);
         });
     }
 });
