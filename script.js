@@ -38,7 +38,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ESTA LISTA FUE GENERADA AUTOMATICAMENTE
     const mediaFiles = [
-        { type: 'image', src: 'archivos/IMG_20250905_092018_HDR.jpg' }
+        { type: 'image', src: 'archivos/IMG_20250905_092018_HDR.jpg' },
+        { type: 'image', src: 'archivos/IMG_20250905_092021_HDR.jpg' },
+        { type: 'image', src: 'archivos/IMG_20250905_092027_HDR.jpg' },
+        { type: 'image', src: 'archivos/IMG_20250905_092030_HDR.jpg' },
+        { type: 'image', src: 'archivos/IMG_20250905_092225.jpg' },
+        { type: 'image', src: 'archivos/P9050004.JPG' },
+        { type: 'image', src: 'archivos/P9050005.JPG' },
+        { type: 'image', src: 'archivos/P9050006.JPG' },
+        { type: 'image', src: 'archivos/P9050007.JPG' },
+        { type: 'image', src: 'archivos/P9050008.JPG' },
+        { type: 'image', src: 'archivos/P9050009.JPG' },
+        { type: 'image', src: 'archivos/P9050010.JPG' },
+        { type: 'image', src: 'archivos/P9050011.JPG' },
+        { type: 'image', src: 'archivos/P9050012.JPG' },
+        { type: 'image', src: 'archivos/P9050013.JPG' },
+        { type: 'image', src: 'archivos/P9050014.JPG' },
+        { type: 'image', src: 'archivos/P9050015.JPG' },
+        { type: 'video', src: 'archivos/P9050016.mp4' },
+        { type: 'video', src: 'archivos/P9050017.MOV' },
+        { type: 'image', src: 'archivos/P9050018.JPG' },
+        { type: 'image', src: 'archivos/P9050021.JPG' },
+        { type: 'image', src: 'archivos/P9050024.JPG' },
+        { type: 'image', src: 'archivos/P9050025.JPG' },
+        { type: 'video', src: 'archivos/P9050026.MOV' },
+        { type: 'video', src: 'archivos/P9050028.MOV' },
+        { type: 'image', src: 'archivos/P9050029.JPG' },
+        { type: 'video', src: 'archivos/P9050030.MOV' },
+        { type: 'video', src: 'archivos/P9050033.MOV' },
+        { type: 'video', src: 'archivos/VID_20250905_143001.mp4' },
+        { type: 'video', src: 'archivos/VID_20250905_145452.mp4' }
     ];
     // FIN DE LA LISTA GENERADA AUTOMATICAMENTE
 
