@@ -56,18 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'image', src: 'archivos/P9050014.JPG' },
         { type: 'image', src: 'archivos/P9050015.JPG' },
         { type: 'video', src: 'archivos/P9050016.mp4' },
-        { type: 'video', src: 'archivos/P9050017.MOV' },
         { type: 'image', src: 'archivos/P9050018.JPG' },
         { type: 'image', src: 'archivos/P9050021.JPG' },
         { type: 'image', src: 'archivos/P9050024.JPG' },
         { type: 'image', src: 'archivos/P9050025.JPG' },
-        { type: 'video', src: 'archivos/P9050026.MOV' },
-        { type: 'video', src: 'archivos/P9050028.MOV' },
         { type: 'image', src: 'archivos/P9050029.JPG' },
         { type: 'video', src: 'archivos/P9050030.MOV' },
-        { type: 'video', src: 'archivos/P9050033.MOV' },
-        { type: 'video', src: 'archivos/VID_20250905_143001.mp4' },
-        { type: 'video', src: 'archivos/VID_20250905_145452.mp4' }
+        { type: 'video', src: 'archivos/video-final.mp4' }
     ];
     // FIN DE LA LISTA GENERADA AUTOMATICAMENTE
 
