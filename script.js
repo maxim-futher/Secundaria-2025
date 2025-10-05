@@ -39,27 +39,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ESTA LISTA FUE GENERADA AUTOMATICAMENTE
     const mediaByDate = {
-    "2025-07-24": [
+    "2025-09-05": [
         {
             "type": "image",
-            "src": "organized/organized_parts/organized_part1/archivos/2025-07-24/P7240001.JPG"
-        },
+            "src": "archivos/2025-09-05/P9050004.JPG"
+        }
+    ],
+    "2025-09-12": [
         {
             "type": "video",
-            "src": "organized/organized_parts/organized_part9/archivos/P9120200.MOV"
+            "src": "archivos/2025-09-12/P9080057.MOV"
         }
     ]
 };
     const sortedDates = [
-    "2025-07-24",
     "2025-09-05",
-    "2025-09-08",
-    "2025-09-09",
-    "2025-09-10",
-    "2025-09-12",
-    "2025-09-15",
-    "2025-09-16",
-    "archivos"
+    "2025-09-12"
 ];
     // FIN DE LA LISTA GENERADA AUTOMATICAMENTE
 
